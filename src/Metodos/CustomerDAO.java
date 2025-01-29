@@ -1,4 +1,4 @@
-package app_pdbd;
+package Metodos;
 
 import java.sql.*;
 

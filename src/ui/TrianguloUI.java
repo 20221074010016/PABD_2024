@@ -225,7 +225,7 @@ public class TrianguloUI extends javax.swing.JFrame {
 
             // Atualizando os labels com o tipo e a área
             tipoLabel.setText("Tipo: " + tipo);
-            areaLabel.setText("Área: " + String.format("%.4f", area));
+            areaLabel.setText("Área: " + String.format("%.2f", area));
         } else {
             // Se não for possível formar um triângulo
             tipoLabel.setText("Não é possível formar um triângulo com esses lados.");
